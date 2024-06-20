@@ -24,10 +24,26 @@ pi= 3.14
 pond_area= int((pi* radius*radius))
 pond_water=int((pond_area*1.4))
 
-print("total pond area is={pond_area}")
-print("total water in pond={pond_water}")
+print(f"total pond area is={pond_area}")
+print(f"total water in pond={pond_water}")
 
 #the otput will be
 # total pond area is=22155
 # total water in pond=31016
+
+#-------------------------------------------------------------
+
+# 3. If you cross a 490 meter long street in 7 minutes, calculate your speed in meters per second. 
+#    Print the answer without any decimal point in it. Hint: Speed = Distance / Time
+
+distance=490
+time=7 
+speed= input((distance/time)) #formula of speed calc
+print(f"the speed ={speed}")
+
+#the ans will be 70
+
+
+
+
 
