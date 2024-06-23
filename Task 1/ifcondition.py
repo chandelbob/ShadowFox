@@ -17,19 +17,19 @@ Output: "Normal"
 def bmi():
     height=float(input("enter height in meters:"))
     weight=float(input("enter your weight in kilogram:"))
-BMI = (weight/(height*2))                 # Calculating BMI 
+    BMI = (weight/(height*2))                 # Calculating BMI 
 
     # Start of If Else ladder
      
-if BMI >= 30 :                                 
+    if BMI >= 30 :                                 
         print("Obesity")
-elif BMI > 25 and BMI <= 29 :       
+    elif BMI > 25 and BMI <= 29 :       
         print("Overweight")
-elif BMI > 18.5 and BMI <= 25 :     
+    elif BMI > 18.5 and BMI <= 25 :     
         print("Normal")
-elif BMI < 18.5 :                   
+    elif BMI < 18.5 :                   
         print("Underweight")
-else :
+    else :
         print ("Wrong Input")           # Wrong Input 
 
 bmi()                   # Calling Funtion 
