@@ -38,7 +38,7 @@ print(f"total water in pond={pond_water}")
 
 distance=490
 time=7 
-speed= input((distance/time)) #formula of speed calc
+speed= int((distance/time)) #formula of speed calc
 print(f"the speed ={speed}")
 
 #the ans will be 70
